@@ -6,6 +6,7 @@ import java.security.KeyPairGenerator;
 import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.security.spec.X509EncodedKeySpec;
+import java.util.Objects;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyAgreement;
@@ -15,7 +16,7 @@ import javax.crypto.spec.DHParameterSpec;
 
 import org.apache.commons.codec.binary.Base64;
 
-import com.sun.org.apache.xalan.internal.utils.Objects;
+//import com.sun.org.apache.xalan.internal.utils.Objects;
 
 public class DHTest {
 	

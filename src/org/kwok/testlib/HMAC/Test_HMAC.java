@@ -27,7 +27,8 @@ public class Test_HMAC {
     	//初始化KeyGenerator
         KeyGenerator keyGenerator = KeyGenerator.getInstance("HmacMD5");
         //产生密钥
-        SecretKey secretKry = keyGenerator.generateKey();
+        @SuppressWarnings("unused")
+		SecretKey secretKry = keyGenerator.generateKey();
         //获得密钥
         //byte[] key  = secretKry.getEncoded();
       

@@ -10,6 +10,7 @@ import org.bouncycastle.crypto.digests.MD5Digest;
 import org.bouncycastle.crypto.macs.HMac;
 import org.bouncycastle.crypto.params.KeyParameter;
 
+@SuppressWarnings("unused")
 public class HMACTest {
 	
 	public static final String src = "hmac test";
